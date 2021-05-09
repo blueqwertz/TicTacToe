@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Name Here</title>
+        <title>Tic Tac Toe</title>
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
@@ -18,24 +18,27 @@
                         <img class="icon" src="icons/minimize.svg" draggable="false" />
                     </div>
 
-                    <div class="button" id="max-button">
-                        <img class="icon" src="icons/maximize.svg" draggable="false" />
-                    </div>
-
-                    <div class="button" id="restore-button">
-                        <img class="icon" src="icons/maximize.svg" draggable="false" />
-                    </div>
-
                     <div class="button" id="close-button">
                         <img class="icon" src="icons/close.svg" draggable="false" />
                     </div>
                 </div>
             </div>
         </header>
-        <main style="padding: 20px">
-            <h1>💖 Hello World!</h1>
-            <p>Welcome to your Electron application.</p>
-        </main>
+        <div class="who">
+            <div class="you active" id="you">You</div>
+            <div class="ai" id="ai">AI</div>
+        </div>
+        <div class="game-grid" id="board">
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+            <div class="game-cell"></div>
+        </div>
     </body>
     <script src="script.js"></script>
 </html>

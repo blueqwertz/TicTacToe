@@ -1,0 +1,35 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="#00FF57" xmlns="http://www.w3.org/2000/svg">
+<style>.Rectangle_2_413 {
+	animation: 0.3s linear 0s 1 normal forwards running Rectangle_2_413;
+}
+@keyframes Rectangle_2_413 {
+	0% {
+		opacity: 0;
+	}
+	33.33% {
+		width: 0.01px;
+		opacity: 1;
+	}
+	100% {
+		width: 100px;
+	}
+}.Rectangle_1_563 {
+	animation: 0.3s linear 0s 1 normal forwards running Rectangle_1_563;
+}
+@keyframes Rectangle_1_563 {
+	0% {
+		width: 1px;
+	}
+	66.67% {
+		width: 100px;
+	}
+	100% {
+		width: 100px;
+	}
+}
+</style><g clip-path="url(#clip_0_844)"><g transform="translate(4.29 75.5)">
+<rect width="100" height="15" class="Rectangle_2_413" transform="translate(100.76 40.66) rotate(-135)"/>
+<rect width="100" height="15" class="Rectangle_1_563" transform="translate(30.05 30.05) rotate(-45)"/></g></g>
+<defs><clipPath id="clip_0_844"><rect width="150" height="150"/></clipPath>
+</defs>
+</svg>
