@@ -140,15 +140,16 @@ body {
 }
 
 .game-grid {
+    height: 356px;
+    width: 356px;
     background: #b1b1b1;
     display: grid;
     grid-template-columns: repeat(3, 113px);
     grid-template-rows: repeat(3, 113px);
     grid-gap: 9px;
     margin-top: 50px;
+    margin-left: 20px;
     position: absolute;
-    left: 50%;
-    transform: translate(-178px);
 }
 
 .game-cell {

@@ -221,6 +221,9 @@ class Game {
 
     minimax(depth, isMaximizing) {
         let result = this.check()
+        // if (depth >= 10) {
+        //     return result - depth
+        // }
         if (result !== null) {
             return result - depth
         }
