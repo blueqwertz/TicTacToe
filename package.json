@@ -46,11 +46,11 @@
         }
     },
     "dependencies": {
-        "electron-builder": "^22.11.1",
         "electron-is-packaged": "^1.0.2",
         "electron-squirrel-startup": "^1.0.0"
     },
     "devDependencies": {
+        "electron-builder": "^22.11.1",
         "@electron-forge/cli": "^6.0.0-beta.54",
         "@electron-forge/maker-deb": "^6.0.0-beta.54",
         "@electron-forge/maker-rpm": "^6.0.0-beta.54",
