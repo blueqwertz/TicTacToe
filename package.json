@@ -8,7 +8,9 @@
         "start": "electron-forge start",
         "package": "electron-forge package",
         "make": "electron-forge make",
-        "publish": "electron-forge publish --always"
+        "publish": "electron-forge publish --always",
+        "build": "electron-builder build --win --publish never",
+        "deploy": "electron-builder build --win --publish always"
     },
     "keywords": [],
     "author": {
