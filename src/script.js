@@ -155,12 +155,14 @@ class Game {
             this.board.set(index, this.human)
             this.el.children[index].innerHTML = this.X
             if (this.check() != null) {
+                this.gameOver = true
                 setTimeout(() => {
                     this.endGame()
                 }, 300)
                 return
             }
             if (this.board.open().length > 0) {
+                this.gameOver = true
                 setTimeout(() => {
                     this.set(this.search(), this.ai)
                 }, 300)

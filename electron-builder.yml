@@ -1,10 +1,10 @@
 appId: com.example.AppName
 publish:
     provider: github
-    token: { env.GITHUB_TOKEN }
+    token: {env.GITHUB_TOKEN}
 win:
     icon: "src/icon.ico"
     target:
         - "nsis"
         - "zip"
-artifactName: AppName.${ext}
+artifactName: TicTacToe.${ext}
