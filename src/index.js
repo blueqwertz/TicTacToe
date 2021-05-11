@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron")
+const {app, BrowserWindow} = require("electron")
 const path = require("path")
 
 const nativeImage = require("electron").nativeImage
@@ -14,10 +14,11 @@ const createWindow = () => {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
         width: 400,
-        height: 650,
+        height: 600,
         frame: false,
         show: false,
-        // resizable: false,
+        resizable: false,
+        transparent: true,
         icon: image,
         webPreferences: {
             nodeIntegration: true,
