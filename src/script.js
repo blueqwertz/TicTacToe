@@ -162,7 +162,6 @@ class Game {
                 return
             }
             if (this.board.open().length > 0) {
-                this.gameOver = true
                 setTimeout(() => {
                     this.set(this.search(), this.ai)
                 }, 300)
@@ -174,6 +173,7 @@ class Game {
             this.el.children[index].innerHTML = this.O
             if (this.check() != null) {
                 setTimeout(() => {
+                    this.gameOver = true
                     this.endGame()
                 }, 300)
                 return
